@@ -1,0 +1,23 @@
+# Node.js / Frontend-specific ignores
+node_modules
+dist
+dist-ssr
+build/
+.vite/
+
+# npm/yarn logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Editor (keep vscode extensions.json)
+.vscode/*
+!.vscode/extensions.json
+.idea
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+

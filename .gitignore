@@ -1,0 +1,57 @@
+# Root level ignores
+
+# Temporary files
+*.md.bak
+*.tmp
+# Logs
+*.log
+logs/
+
+# OS files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# IDE
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Coverage reports
+coverage
+*.out
+*.coverprofile
+
+# Build artifacts
+bin/
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Uploads and temporary files
+uploads/
+**/uploads/
+tmp/
+**/tmp/
+
+# Database dumps
+*.sql.bak
+*.dump
+
+# Node modules (should be in frontend/.gitignore but adding here too)
+node_modules/
+
+# Build outputs
+dist/
+build/
+*.test
+
